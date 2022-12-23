@@ -1,0 +1,12 @@
+Public Class Form1
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        Dim nama As String = "Ananta Eka A"
+        Dim npm As String = "13.2022.1.01099"
+        Dim jurusan As String = "Sistem Informasi"
+        Dim tanggalLahir As Date = #12/04/2004#
+
+        'Tampilkan output
+        TextBox1.Text = "Nama: " & nama & vbNewLine & "NPM: " & npm & vbNewLine & "Jurusan: " & jurusan & vbNewLine & "Tanggal Lahir: " & tanggalLahir.ToString("dd MMMM yyyy")
+    End Sub
+End Class
