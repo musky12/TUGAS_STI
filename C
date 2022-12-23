@@ -1,0 +1,20 @@
+#include <iostream>
+#include <stdio.h>
+#include <time.h>
+
+int main(void) {
+    // Tentukan nilai untuk variabel-variabel ini
+    char nama[] = "Ananta Eka A";
+    char npm[] = "13.2022.1.01099";
+    char jurusan[] = "Sistem Informasi";
+    char tempatlahir[] = "Sidoarjo";
+    time_t tanggalLahir =  1090155100; // 01 Januari 2000
+
+    // Tampilkan output
+    printf("Nama: %s\n", nama);
+    printf("NPM: %s\n", npm);
+    printf("Jurusan: %s\n", jurusan);
+    printf("Tempat Lahir: %s\n", tempatlahir);
+    printf("Tanggal Lahir: %s", ctime(&tanggalLahir));
+
+}
