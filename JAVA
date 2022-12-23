@@ -1,0 +1,20 @@
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class Main {
+    public static void main(String[] args) {
+        // Tentukan nilai untuk variabel-variabel ini
+        String nama = "Ananta Eka A";
+        String npm = "13.2022.1.01099";
+        String jurusan = "Sistem Informasi";
+        String tempatlahir = "Sidoarjo";
+        LocalDate tanggalLahir = LocalDate.of(2000, 1, 1);
+
+        // Tampilkan output
+        System.out.println("Nama: " + nama);
+        System.out.println("NPM: " + npm);
+        System.out.println("Jurusan: " + jurusan);
+        System.out.println("Tempat Lahir: " + tempatlahir);
+        System.out.println("Tanggal Lahir: " + tanggalLahir.format(DateTimeFormatter.ofPattern("dd MMMM yyyy")));
+    }
+}
