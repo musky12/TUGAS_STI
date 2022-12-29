@@ -8,7 +8,7 @@ public class Main {
         String npm = "13.2022.1.01099";
         String jurusan = "Sistem Informasi";
         String tempatlahir = "Sidoarjo";
-        LocalDate tanggalLahir = LocalDate.of(2000, 1, 1);
+        LocalDate tanggalLahir = LocalDate.of(2004, 4, 12);
 
         // Tampilkan output
         System.out.println("Nama: " + nama);
