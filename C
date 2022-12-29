@@ -1,20 +1,32 @@
-#include <iostream>
-#include <stdio.h>
-#include <time.h>
-
-int main(void) {
-    
-    char nama[] = "Ananta Eka A";
-    char npm[] = "13.2022.1.01099";
-    char jurusan[] = "Sistem Informasi";
-    char tempatlahir[] = "Sidoarjo";
-    time_t tanggalLahir =  1089155100; // 
-
-    // Tampilkan output
-    printf("Nama: %s\n", nama);
-    printf("NPM: %s\n", npm);
-    printf("Jurusan: %s\n", jurusan);
-    printf("Tempat Lahir: %s\n", tempatlahir);
-    printf("Tanggal Lahir: %s", ctime(&tanggalLahir));
-
+int main(void)
+{
+  printf("Hidayat Habibi Ahmad \n");
+  printf("\n");
+ 
+  char nama[100], npm[100];
+  char jrsn[100], ttl[100];
+ 
+ //input
+  printf("Nama = ");
+  gets(nama);
+ 
+  printf("NPM = ");
+  gets(npm);
+ 
+  printf("Jurusan = ");
+  gets(jrsn);
+ 
+  printf("Tempat Tanggal Lahir = ");
+  gets(ttl);
+ 
+  printf("\n");
+  printf("================== \n");
+  
+  //output
+  printf("Nama = %s \n",nama);
+  printf("NIM = %s \n",npm);
+  printf("Jurusan = %s \n",jrsn);
+  printf("Tempat Tanggal Lahir = %s \n",ttl);
+ 
+  return 0;
 }
