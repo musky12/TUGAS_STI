@@ -1,14 +1,12 @@
-from datetime import datetime
+nama =input("Nama = ")
+npm = input("NPM = ")
+jrsn= input ("Jurusan =")
+ttl= input ("Tempat Tanggal Lahir = ")
 
-nama = "Ananta Eka A"
-npm = "13.2022.1.01099"
-jurusan = "Sistem Informasi -ITATS"
-tempatlahir = "Sidoarjo"
-tanggalLahir = datetime(2004, 4, 12)
+print ("==========================")
+print()
 
-
-print("Nama:", nama)
-print("NPM:", npm)
-print("Jurusan:", jurusan)
-print("Tempat Lahir:",tempatlahir)
-print("Tanggal Lahir:", tanggalLahir.strftime("%d %B %Y"))
+print ("Nama =",nama)
+print ("NPM =",npm)
+print ("Jurusan =",jrsn)
+print ("Tempat Tanggal Lahir =",ttl)
