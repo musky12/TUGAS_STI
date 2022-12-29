@@ -2,6 +2,7 @@ program biodata;
 
 { Deklarasi variabel }
 var
+ nama: string;
   npm: string;
   jurusan: string;
   tempat: string;
@@ -9,6 +10,8 @@ var
 
 begin
   { Input data }
+  write('Masukkan NAMA: ');
+  readln(nama);
   write('Masukkan NPM: ');
   readln(npm);
   write('Masukkan jurusan: ');
@@ -20,6 +23,7 @@ begin
 
   { Tampilkan biodata }
   writeln('Biodata:');
+  writeln('NAMA: ', nama);
   writeln('NPM: ', npm);
   writeln('Jurusan: ', jurusan);
   writeln('Tempat lahir: ', tempat);
