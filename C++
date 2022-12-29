@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    // Tentukan nilai untuk variabel-variabel ini
+    
     string nama = "Ananta Eka A";
     string npm = "13.2022.1.01099";
     string jurusan = "Sistem Informatika";
