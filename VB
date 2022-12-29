@@ -1,8 +1,27 @@
-Public Module Program
-	Public Sub Main(args() As string)
-		Console.WriteLine("Nama = Ananta Eka Abrilliansyah")
-		Console.WriteLine("NPM = 13.2022.1,01099")
-		Console.WriteLine("Jurusan = Sistem Informasi")
-		Console.WriteLine("Tempat Tanggal Lahir = sidoarjo/12-04-2004")
-	End Sub
-End Module
+Module VBModule
+ 
+    Sub Main()
+        dim nama as String
+        dim npm as String
+        dim jurusan as String
+        dim ttl as String
+
+        Console.WriteLine("BIODATA")
+        Console.WriteLine("Input Biodata Anda")
+        Console.Write("Nama : ")
+        nama = Console.ReadLine()
+        Console.Write("NPM : ")
+        npm = Console.ReadLine()
+        Console.Write("Jurusan : ")
+        jurusan = Console.ReadLine()
+        Console.Write("Tempat & Tanggal Lahir : ")
+        ttl = Console.ReadLine()
+
+        Console.WriteLine("OUTPUT")
+        Console.WriteLine("Nama : "+nama)
+        Console.WriteLine("NPM : "+npm)
+        Console.WriteLine("Jurusan : "+jurusan)
+        Console.WriteLine("Tempat & Tanggal Lahir : "+ttl)
+    End Sub
+  
+End Module
