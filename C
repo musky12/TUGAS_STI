@@ -8,7 +8,7 @@ int main(void) {
     char npm[] = "13.2022.1.01099";
     char jurusan[] = "Sistem Informasi";
     char tempatlahir[] = "Sidoarjo";
-    time_t tanggalLahir =  1090155100; // 01 Januari 2000
+    time_t tanggalLahir =  1089155100; // 
 
     // Tampilkan output
     printf("Nama: %s\n", nama);
