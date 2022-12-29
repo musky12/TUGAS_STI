@@ -3,7 +3,7 @@
 #include <time.h>
 
 int main(void) {
-    // Tentukan nilai untuk variabel-variabel ini
+    
     char nama[] = "Ananta Eka A";
     char npm[] = "13.2022.1.01099";
     char jurusan[] = "Sistem Informasi";
