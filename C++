@@ -1,23 +1,28 @@
 #include <iostream>
-
 using namespace std;
 
 int main() {
-    
-    string nama = "Ananta Eka A";
-    string npm = "13.2022.1.01099";
-    string jurusan = "Sistem Informatika";
-    string tempatlahir = "Sidoarjo";
-    int tahunLahir = 2004;
-    int bulanLahir = 4; 
-    int tanggalLahir = 12;
-
-    // Tampilkan output
-    cout << "Nama: " << nama << endl;
-    cout << "NPM: " << npm << endl;
-    cout << "Jurusan: " << jurusan << endl;
-    cout << "Tempat Lahir: " << tempatlahir << endl;
-    cout << "Tanggal Lahir: " << tanggalLahir << "/" << bulanLahir << "/" << tahunLahir << endl;
-
-    
+  string nama;
+  string npm;
+  string jrsn;
+  string ttl;
+ 
+  //input
+  cout<<"Nama = ";
+  getline (cin, nama);
+  cout<<"NPM = ";
+  getline (cin, npm);
+  cout<<"Jurusan = ";
+  getline (cin, jrsn);
+  cout<<"Tempat Tanggal Lahir = ";
+  getline (cin, ttl);
+  
+  cout<<endl;
+  //output
+  cout<<"======================="<<endl;
+  cout<<"Nama = "<<nama<<endl;
+  cout<<"NPM = "<<npm<<endl;
+  cout<<"Jurusan = "<<jrsn<<endl;
+  cout<<"Tempat Tanggal Lahir = "<<ttl;
+ 
 }
