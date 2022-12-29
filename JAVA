@@ -3,7 +3,7 @@ import java.time.format.DateTimeFormatter;
 
 public class Main {
     public static void main(String[] args) {
-        // Tentukan nilai untuk variabel-variabel ini
+        
         String nama = "Ananta Eka A";
         String npm = "13.2022.1.01099";
         String jurusan = "Sistem Informasi";
