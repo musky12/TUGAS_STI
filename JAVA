@@ -22,4 +22,8 @@ public class hidayat {
         System.out.println("==============================="+newln);
         
         System.out.println("Nama = "+nama+newln);
-        System.out.println("NPM…
+        System.out.println("NPM = "+npm+newln);
+        System.out.println("Jurusan = "+jurusan+newln);
+        System.out.println("Tempat Tanggal Lahir = "+ttl+newln);
+    }
+}
